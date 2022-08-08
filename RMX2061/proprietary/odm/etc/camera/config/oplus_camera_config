@@ -13,6 +13,27 @@
 },
 
 {
+  "VendorTag": "com.oplus.athena.support",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "1"
+},
+
+{
+  "VendorTag": "com.oplus.bokeh.beauty.open.default",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "0"
+},
+
+{
+  "VendorTag": "com.oplus.hal.memory.portrait",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "700"
+},
+
+{
   "VendorTag": "com.oplus.feature.video.eis.support",
   "Type": "Byte",
   "Count": "1",
@@ -73,6 +94,13 @@
   "Type": "Int32",
   "Count": "2",
   "Value": "9280x6944"
+},
+
+{
+  "VendorTag": "com.oplus.high.mfnr.picturesize",
+  "Type": "Int32",
+  "Count": "1",
+  "Value": "4608x3456"
 },
 
 {
@@ -436,7 +464,7 @@
   "VendorTag": "com.oplus.feature.video.eis.fps",
   "Type": "Int32",
   "Count": "1",
-  "Value": "60"
+  "Value": "30"
 },
 
 {
@@ -650,6 +678,13 @@
 },
 
 {
+  "VendorTag": "com.oplus.camera.video.brightness",
+  "Type": "Int32",
+  "Count": "1",
+  "Value": "125"
+},
+
+{
   "VendorTag": "com.oplus.feature.video.dark.tips.threshold",
   "Type": "Int32",
   "Count": "1",
@@ -776,13 +811,6 @@
 },
 
 {
-  "VendorTag": "com.oplus.feature.arscoft.single.bokeh.support",
-  "Type": "Byte",
-  "Count": "1",
-  "Value": "1"
-},
-
-{
   "VendorTag": "com.oplus.face.rectify.config.value",
   "Type": "String",
   "Count": "1",
@@ -829,6 +857,13 @@
   "Type": "Byte",
   "Count": "1",
   "Value": "1"
+},
+
+{
+  "VendorTag": "com.oplus.video.inertial.zoom.support",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "0"
 },
 
 {

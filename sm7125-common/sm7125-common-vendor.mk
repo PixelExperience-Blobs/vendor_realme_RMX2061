@@ -1250,7 +1250,45 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sm7125-common/proprietary/vendor/radio/qcril_database/upgrade/4_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/4_version_update_ecc_table.sql \
     vendor/realme/sm7125-common/proprietary/vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/5_version_update_ecc_table.sql \
     vendor/realme/sm7125-common/proprietary/vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/6_version_update_ecc_table.sql \
-    vendor/realme/sm7125-common/proprietary/vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/7_version_update_ecc_table.sql
+    vendor/realme/sm7125-common/proprietary/vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/7_version_update_ecc_table.sql \
+    vendor/realme/sm7125-common/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
+    vendor/realme/sm7125-common/proprietary/system_ext/framework/com.android.hotwordenrollment.common.util.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/com.android.hotwordenrollment.common.util.jar \
+    vendor/realme/sm7125-common/proprietary/product/etc/permissions/privapp-permissions-google-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-google-hotword.xml \
+    vendor/realme/sm7125-common/proprietary/product/etc/sysconfig/hotword-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hotword-hiddenapi-package-whitelist.xml \
+    vendor/realme/sm7125-common/proprietary/system_ext/lib/EngCameraClient.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/EngCameraClient.so \
+    vendor/realme/sm7125-common/proprietary/system_ext/lib/liboplus_imageprocessing.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/liboplus_imageprocessing.so \
+    vendor/realme/sm7125-common/proprietary/system_ext/lib/libopluscameraservice.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libopluscameraservice.so \
+    vendor/realme/sm7125-common/proprietary/system_ext/lib/libseccam-ipc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libseccam-ipc.so \
+    vendor/realme/sm7125-common/proprietary/system_ext/lib/libseccam.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libseccam.so \
+    vendor/realme/sm7125-common/proprietary/system_ext/lib/libseccamservice.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libseccamservice.so \
+    vendor/realme/sm7125-common/proprietary/system_ext/lib/vendor.oplus.hardware.engcamera@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.oplus.hardware.engcamera@1.0.so \
+    vendor/realme/sm7125-common/proprietary/system_ext/lib/vendor.qti.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.camera.device@1.0.so \
+    vendor/realme/sm7125-common/proprietary/system_ext/lib/vendor.qti.hardware.seccam@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.seccam@1.0.so \
+    vendor/realme/sm7125-common/proprietary/system_ext/lib64/EngCameraClient.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/EngCameraClient.so \
+    vendor/realme/sm7125-common/proprietary/system_ext/lib64/liboplus_imageprocessing.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboplus_imageprocessing.so \
+    vendor/realme/sm7125-common/proprietary/system_ext/lib64/libopluscameraservice.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libopluscameraservice.so \
+    vendor/realme/sm7125-common/proprietary/system_ext/lib64/libseccam-ipc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libseccam-ipc.so \
+    vendor/realme/sm7125-common/proprietary/system_ext/lib64/libseccam.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libseccam.so \
+    vendor/realme/sm7125-common/proprietary/system_ext/lib64/libseccamservice.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libseccamservice.so \
+    vendor/realme/sm7125-common/proprietary/system_ext/lib64/vendor.oplus.hardware.engcamera@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.oplus.hardware.engcamera@1.0.so \
+    vendor/realme/sm7125-common/proprietary/system_ext/lib64/vendor.qti.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.camera.device@1.0.so \
+    vendor/realme/sm7125-common/proprietary/system_ext/lib64/vendor.qti.hardware.seccam@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.seccam@1.0.so \
+    vendor/realme/sm7125-common/proprietary/vendor/bin/hw/android.hardware.camera.provider@2.4-service_64:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.camera.provider@2.4-service_64 \
+    vendor/realme/sm7125-common/proprietary/vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.camera.provider@2.4-service_64.rc \
+    vendor/realme/sm7125-common/proprietary/vendor/lib/android.hardware.camera.provider@2.4-external.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.provider@2.4-external.so \
+    vendor/realme/sm7125-common/proprietary/vendor/lib/android.hardware.camera.provider@2.4-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.provider@2.4-legacy.so \
+    vendor/realme/sm7125-common/proprietary/vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.camera.provider@2.4-impl.so \
+    vendor/realme/sm7125-common/proprietary/vendor/lib/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.qcom.so \
+    vendor/realme/sm7125-common/proprietary/vendor/lib/vendor.oplus.hardware.cammidasservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.oplus.hardware.cammidasservice@1.0.so \
+    vendor/realme/sm7125-common/proprietary/vendor/lib/vendor.qti.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.camera.device@1.0.so \
+    vendor/realme/sm7125-common/proprietary/vendor/lib/vendor.qti.hardware.camera.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.camera.postproc@1.0.so \
+    vendor/realme/sm7125-common/proprietary/vendor/lib64/android.hardware.camera.provider@2.4-external.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.4-external.so \
+    vendor/realme/sm7125-common/proprietary/vendor/lib64/android.hardware.camera.provider@2.4-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.4-legacy.so \
+    vendor/realme/sm7125-common/proprietary/vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.camera.provider@2.4-impl.so \
+    vendor/realme/sm7125-common/proprietary/vendor/lib64/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.qcom.so \
+    vendor/realme/sm7125-common/proprietary/vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.cammidasservice@1.0.so \
+    vendor/realme/sm7125-common/proprietary/vendor/lib64/vendor.qti.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.device@1.0.so \
+    vendor/realme/sm7125-common/proprietary/vendor/lib64/vendor.qti.hardware.camera.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.postproc@1.0.so
 
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.fm@1.0 \

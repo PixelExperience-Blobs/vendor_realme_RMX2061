@@ -264,7 +264,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2061/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
     vendor/realme/RMX2061/proprietary/vendor/bin/cdsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/cdsprpcd \
     vendor/realme/RMX2061/proprietary/vendor/etc/Oppo_QC_LTM_Commercial_SM8250_2020_01_15.pfm:$(TARGET_COPY_OUT_VENDOR)/etc/Oppo_QC_LTM_Commercial_SM8250_2020_01_15.pfm \
-    vendor/realme/RMX2061/proprietary/vendor/etc/camera/M_Attribute_Gender_Age_1.0.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/M_Attribute_Gender_Age_1.0.model \
+    vendor/realme/RMX2061/proprietary/vendor/etc/camera/M_Attribute_AG_BMW_1.1.0.model.hardcode:$(TARGET_COPY_OUT_VENDOR)/etc/camera/M_Attribute_AG_BMW_1.1.0.model.hardcode \
     vendor/realme/RMX2061/proprietary/vendor/etc/init/vendor.qti.adsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-service.rc \
     vendor/realme/RMX2061/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
     vendor/realme/RMX2061/proprietary/vendor/etc/ltm_config_samsung_AMS678UW01_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_samsung_AMS678UW01_dsc_cmd_mode_panel.xml \
